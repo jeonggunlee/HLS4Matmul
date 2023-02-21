@@ -7,7 +7,7 @@
 
 ![MM Accelerator on Zynq FPGA](./MM_Blocks.png)
 
-* Note
+### * Note
 
 1. Zynq Processor Configuration: Keep in mind that we have to enable the use of HP ports for utilizing DMA.
 
@@ -47,5 +47,7 @@ unsigned int u32_to_float(unsigned int val)
 }
 ```
 
-* Overal Development Environment of Vitis-IDE.
+### * Overal Development Environment of Vitis-IDE.
 ![Vitis-IDE](./Overall_DevEnv-Vitis_IDE.png)
+
+### * Next Mission: Try to optimize the MM Accelerator with further memory optimization or bitwidth optimization.

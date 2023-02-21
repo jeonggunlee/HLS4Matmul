@@ -10,6 +10,10 @@
 * Note
 
 1. Zynq Processor Configuration: Keep in mind that we have to enable the use of HP ports for utilizing DMA.
+
+![Customizing Zynq Processor IP](./customizing-IP.png)
+
+
 2. DMA transfer data are typed as u32. Sometimes, we need to special functions to translate u32 to/from float.
 ```C
 unsigned int float_to_u32(float val)
